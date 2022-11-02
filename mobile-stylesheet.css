@@ -1,0 +1,217 @@
+@media (max-width: 380px) {
+    
+    @font-face {
+      font-family: "Inter";
+      src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    }
+    
+    body, html {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin: 0;
+      font-family: inter, arial;
+      background-color: hsl(36, 100%, 99%);
+      margin-top: 500px;
+    }
+    
+    p, h1, h2, h3 {
+      margin: 0;
+    }
+    
+    main, .main-top, .left-top-bottom,
+    .main-bottom {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo {
+      position: absolute;
+      top: 44px;
+      left: 12px;
+      width: 50px;
+    }
+
+    .blank-space {
+      width: 0;
+    }
+    
+    .right-header {
+      display: none;
+    }
+    
+    .menu-hamburger {
+      display: inline-block;
+      position: absolute;
+      top: 48px;
+      right: 10px;
+    }
+    
+    .main-top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 72px;
+    }
+
+    .left-top {
+      margin: 0;
+    }
+    
+    .banner {
+      display: none;
+    }
+
+    .mobile-banner {
+      display: block;
+      width: 360px;
+      margin-top: -130px;
+    }
+    
+    .left-top-bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 30px 0 70px 0;
+    }
+    
+    .main-title {
+      width: 350px;
+      color: hsl(240, 100%, 5%);
+      font-weight: 900;
+      font-size: 46px;
+      letter-spacing: -0.2px;
+      word-spacing: 3px;
+      line-height: 56px;
+      margin: 10px 0 20px 0;
+    }
+    
+    strong {
+      margin-left: -2px;
+      letter-spacing: -1px;
+    }
+    
+    .description {
+      width: 350px;
+      font-size: 15px;
+      color: hsl(236, 13%, 42%);
+      line-height: 24px;
+      margin-top: -2px;
+    }
+    
+    button {
+      font-family: inter, arial;
+      font-weight: 600;
+      letter-spacing: 4.5px;
+    
+      width: 185px;
+      height: 47px;
+      border: none;
+      background-color: hsl(5, 85%, 63%);
+      color: hsl(36, 100%, 99%);
+      transition: 00.15s;
+      margin-top: 22px;
+    }
+    
+    button:hover {
+      cursor: pointer;
+      background-color: hsl(240, 100%, 5%);
+    }
+    
+    .right-top {
+      background-color: hsl(240, 100%, 5%);
+      width: 360px;
+      margin: 0;
+    }
+    
+    .subsection1, .subsection2 {
+      border-bottom: solid 1px hsl(233, 8%, 79%);
+      width: 302px;
+      margin-left: 29px;
+    }
+    
+    .subsection2 {
+      margin-top: 30px;
+    }
+    
+    .subsection3 {
+      margin: 30px 0 0 29px;
+    }
+    
+    .new-title {
+      color: hsl(35, 77%, 62%);
+      font-size: 40px;
+      font-weight: 600;
+      margin: 28px 0 28px 29px;
+    }
+    
+    .subtitle {
+      color: white;
+      font-weight: 600;
+      font-size: 20px;
+      margin: 0 0 10px 0;
+      letter-spacing: 0.2px;
+      transition: 0.15s;
+    }
+    
+    .subtitle:hover {
+      color:hsl(35, 77%, 62%);
+      cursor: pointer;
+    }
+    
+    .metatext {
+      color: hsl(233, 8%, 79%);
+      margin: 0 0 28px 0;
+      font-size: 15px;
+      width: 300px;
+      line-height: 26px;
+    }
+    
+    .main-bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin:0 0 40px 0;
+    }
+    
+    .article1-preview, .article2-preview {
+      margin: 0 0 30px 0;
+      width: 360px;
+    }
+
+    .article3-preview {
+      width: 360px;
+    }
+
+    .article-image {
+      width: 100px;
+      margin-right: 24px;
+    }
+    
+    .number {
+      font-size: 30px;
+      font-weight: 600;
+      color: hsl(233, 8%, 79%);
+      margin: -2px 0 10px 0;
+    }
+    
+    .article-title {
+      color: hsl(240, 100%, 5%);
+      letter-spacing: -0.3px;
+      margin: 0 0 10px 0;
+      transition: 0.15s;
+    }
+    
+    .article-title:hover {
+      color: hsl(5, 85%, 63%);
+      cursor: pointer;
+    }
+    
+    .article-metatext {
+      width: 226px;
+      font-size: 15px;
+      color: hsl(236, 13%, 42%);
+      line-height: 26px;
+    }       
+}
